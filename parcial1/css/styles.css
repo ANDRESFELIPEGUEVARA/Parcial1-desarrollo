@@ -4,20 +4,51 @@
     text-decoration: none;
     box-sizing: border-box;
     scrollbar-width: thin;
-    scrollbar-color: blue white;
 }
 
 body{
-    background-color: rgb(145, 145, 243);
+    background-color: rgb(204, 204, 204);
 }
-h1,h3{
+.texth{
     color: white;
     text-align: center;
     padding: 15px;
 }
-p{
-    color: white;
+.texth-1{
     text-align: center;
-    padding: 15px;
+    padding-top: 400px;
+}
+.texth-2{
+    text-align: center;
+    padding-top: 6px;
+}
+.texth-3{
+    display: flex;
+    text-align: center;
+    
+    
+}
 
+aside{
+    display: flex;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+}
+
+.text_A{
+    color: white;
+    font-size:18px ;
+    text-align: center;
+    padding-top: 9px;
+}
+.main_bienvenida{
+    width: 100%;
+}
+
+.footer_index{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transform: translateX(45%);
 }
